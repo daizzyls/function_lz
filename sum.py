@@ -6,5 +6,6 @@ def total_sum(numbers: list):
 
 
 numbers = [10, 20, 30, 40, 50]
+result = total_sum(numbers)
 print(f"Список: {numbers}")
-print(f"Сумма элементов: {total_sum}")
+print(f"Сумма элементов: {result}")
