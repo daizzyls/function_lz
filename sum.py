@@ -5,7 +5,8 @@ def total_sum(numbers: list):
     return total_sum
 
 
-numbers = [10, 20, 30, 40, 50]
-result = total_sum(numbers)
-print(f"Список: {numbers}")
-print(f"Сумма элементов: {result}")
+if __name__ == "__mane__":
+    numbers = [10, 20, 30, 40, 50]
+    result = total_sum(numbers)
+    print(f"Список: {numbers}")
+    print(f"Сумма элементов: {result}")

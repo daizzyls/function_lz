@@ -1,7 +1,5 @@
 from sum import total_sum as summ
 
-numbers = [10, 2, 45, 18, 9, 31, 5]
-
 
 def minn(numbers: list):
     min = 0
@@ -33,6 +31,13 @@ def mid_closed(numbers: list):
     return numbers[ind]
 
 
+numbers = [
+    84, -12, 403, 91, 5, 234, -89, 67, 12, 900,
+    45, 78, -3, 567, 123, 8, 99, -450, 312, 64,
+    22, 81, 500, -33, 11, 74, 9, 102, 61, -7,
+    350, 48, 19, 888, 2, 73, -120, 55, 93, 40,
+    31, 600, -1, 15, 83, 27, 410, 6, 95, 100
+]
 min_val = minn(numbers)
 max_val = maxx(numbers)
 mid_val = summ(numbers) / len(numbers)
